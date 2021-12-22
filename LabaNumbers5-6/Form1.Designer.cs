@@ -116,6 +116,7 @@ namespace LabaNumbers5_6
             // 
             // textBox3
             // 
+            this.textBox3.Enabled = false;
             this.textBox3.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox3.Location = new System.Drawing.Point(116, 118);
             this.textBox3.Name = "textBox3";
@@ -172,6 +173,7 @@ namespace LabaNumbers5_6
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.Text = "BinDecCalc";
             this.ResumeLayout(false);
